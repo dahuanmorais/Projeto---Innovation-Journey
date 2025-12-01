@@ -1,9 +1,7 @@
 using UnityEngine;
 
-public class itemcoletavel : MonoBehaviour
+public class Teclado : MonoBehaviour
 {
-    //public string nome;
-    public itensJogo Item;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
