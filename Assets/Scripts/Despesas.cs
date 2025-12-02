@@ -12,7 +12,7 @@ public class Despesas : MonoBehaviour
     public float multas;
     public float salarios;
     public Jogador j1;
-    public Jogador hudtela;
+    public HUDGerenciador hudtela;
 
 
     public float fechaMes;
@@ -46,8 +46,8 @@ public class Despesas : MonoBehaviour
         float somaCusto = custoVida * dificuldade;
         j1.bolsa.carteira -= somaCusto;
         Debug.Log("perdeu" + somaCusto);
-        hudtela.AtualizarGanho();
-        hudtela.AtualizarDinheiro();
+        hudtela.AtualizarGanho(j1.bolsa.carteira);
+        hudtela.AtualizarDinheiro(j1.bolsa.carteira);
 
 
         if (j1.bolsa.carteira == -6000)
