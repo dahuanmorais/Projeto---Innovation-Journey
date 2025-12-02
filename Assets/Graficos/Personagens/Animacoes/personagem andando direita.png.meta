@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: b9ba5e83f6124894a82065b265dbbbed
+guid: 9066de3ee3b18bd4197d0299203ad8cb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1991609737525485977
-    second: dinheiro_0
+      213: 669885417346534376
+    second: personagem andando direita_0
+  - first:
+      213: -2246247877430897636
+    second: personagem andando direita_1
+  - first:
+      213: 8519544838739881295
+    second: personagem andando direita_2
+  - first:
+      213: -9105030077964222534
+    second: personagem andando direita_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,30 +118,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dinheiro_0
+      name: personagem andando direita_0
       rect:
         serializedVersion: 2
-        x: 17
+        x: 21
         y: 19
-        width: 23
-        height: 18
+        width: 16
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76e9597ee716c54e0800000000000000
-      internalID: -1991609737525485977
+      spriteID: 8eb8725ec39eb4900800000000000000
+      internalID: 669885417346534376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem andando direita_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 19
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c149144e479b3d0e0800000000000000
+      internalID: -2246247877430897636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem andando direita_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 19
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d6a1174e08b3670800000000000000
+      internalID: 8519544838739881295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem andando direita_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 19
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abff1b5726f64a180800000000000000
+      internalID: -9105030077964222534
       vertices: []
       indices: 
       edges: []
@@ -161,7 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dinheiro_0: -1991609737525485977
+      personagem andando direita_0: 669885417346534376
+      personagem andando direita_1: -2246247877430897636
+      personagem andando direita_2: 8519544838739881295
+      personagem andando direita_3: -9105030077964222534
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

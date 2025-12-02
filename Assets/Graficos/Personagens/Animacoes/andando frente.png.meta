@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: b9ba5e83f6124894a82065b265dbbbed
+guid: 0a3d76368af49524baf169e13c3a797d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1991609737525485977
-    second: dinheiro_0
+      213: -2028025012200246924
+    second: andando frente_0
+  - first:
+      213: -35881285674496900
+    second: andando frente_1
+  - first:
+      213: -6653381185349274099
+    second: andando frente_2
+  - first:
+      213: -6976939098863119002
+    second: andando frente_3
+  - first:
+      213: 4149607351364159724
+    second: andando frente_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,30 +121,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dinheiro_0
+      name: andando frente_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 19
-        width: 23
-        height: 18
+        x: 20
+        y: 15
+        width: 17
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +140,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76e9597ee716c54e0800000000000000
-      internalID: -1991609737525485977
+      spriteID: 47172301ff10bd3e0800000000000000
+      internalID: -2028025012200246924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando frente_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 15
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c89492926808ff0800000000000000
+      internalID: -35881285674496900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando frente_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 15
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d063df320117aa3a0800000000000000
+      internalID: -6653381185349274099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando frente_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 15
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665dab0eadeec2f90800000000000000
+      internalID: -6976939098863119002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando frente_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 16
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8096786ed569930800000000000000
+      internalID: 4149607351364159724
       vertices: []
       indices: 
       edges: []
@@ -161,7 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dinheiro_0: -1991609737525485977
+      andando frente_0: -2028025012200246924
+      andando frente_1: -35881285674496900
+      andando frente_2: -6653381185349274099
+      andando frente_3: -6976939098863119002
+      andando frente_4: 4149607351364159724
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

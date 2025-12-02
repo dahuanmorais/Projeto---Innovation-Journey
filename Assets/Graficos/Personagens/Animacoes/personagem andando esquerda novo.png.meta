@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: b9ba5e83f6124894a82065b265dbbbed
+guid: 75e768ea406a00e46b366d794105408b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1991609737525485977
-    second: dinheiro_0
+      213: 5650529615843564162
+    second: personagem andando esquerda novo_0
+  - first:
+      213: 8410856996280005678
+    second: personagem andando esquerda novo_1
+  - first:
+      213: 8225885256657096380
+    second: personagem andando esquerda novo_2
+  - first:
+      213: -3864743423634604207
+    second: personagem andando esquerda novo_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,30 +118,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dinheiro_0
+      name: personagem andando esquerda novo_0
       rect:
         serializedVersion: 2
-        x: 17
+        x: 23
         y: 19
-        width: 23
-        height: 18
+        width: 16
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76e9597ee716c54e0800000000000000
-      internalID: -1991609737525485977
+      spriteID: 28a1e217fb6ba6e40800000000000000
+      internalID: 5650529615843564162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem andando esquerda novo_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 19
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24f0ef10ed59b470800000000000000
+      internalID: 8410856996280005678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem andando esquerda novo_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 19
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe4b2eee07382270800000000000000
+      internalID: 8225885256657096380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem andando esquerda novo_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 19
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f7b3e155cad5ac0800000000000000
+      internalID: -3864743423634604207
       vertices: []
       indices: 
       edges: []
@@ -161,7 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dinheiro_0: -1991609737525485977
+      personagem andando esquerda novo_0: 5650529615843564162
+      personagem andando esquerda novo_1: 8410856996280005678
+      personagem andando esquerda novo_2: 8225885256657096380
+      personagem andando esquerda novo_3: -3864743423634604207
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

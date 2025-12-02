@@ -12,8 +12,8 @@ public class Despesas : MonoBehaviour
     public float multas;
     public float salarios;
     public Jogador j1;
-    public HUDGerenciador hudtela;
-    
+    public Jogador hudtela;
+
 
     public float fechaMes;
 
@@ -23,7 +23,7 @@ public class Despesas : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
 
     }
 
@@ -39,24 +39,25 @@ public class Despesas : MonoBehaviour
 
     }
 
-    public void Contas ()
+    public void Contas()
     {
 
-        
+
         float somaCusto = custoVida * dificuldade;
         j1.bolsa.carteira -= somaCusto;
         Debug.Log("perdeu" + somaCusto);
-        hudtela.AtualizarDinheiro(j1.bolsa.carteira);
+        hudtela.AtualizarGanho();
+        hudtela.AtualizarDinheiro();
 
 
         if (j1.bolsa.carteira == -6000)
         {
 
-
+            Debug.Log("voce faleiu");
 
         }
 
     }
-   
+
 
 }

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b9ba5e83f6124894a82065b265dbbbed
+guid: d68f4c3152e69364187644818e23954b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1991609737525485977
-    second: dinheiro_0
+      213: 8989992471932680318
+    second: parado frente_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dinheiro_0
+      name: parado frente_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 19
-        width: 23
-        height: 18
+        x: 19
+        y: 17
+        width: 17
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76e9597ee716c54e0800000000000000
-      internalID: -1991609737525485977
+      spriteID: e78bbfea58ed2cc70800000000000000
+      internalID: 8989992471932680318
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dinheiro_0: -1991609737525485977
+      parado frente_0: 8989992471932680318
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

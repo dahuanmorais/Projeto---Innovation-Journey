@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b9ba5e83f6124894a82065b265dbbbed
+guid: 133e22d902e61964bb37e81b5c71ca4c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1991609737525485977
-    second: dinheiro_0
+      213: -6532780278083139641
+    second: interface Background_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dinheiro_0
+      name: interface Background_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 19
-        width: 23
-        height: 18
+        x: 0
+        y: 0
+        width: 760
+        height: 380
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76e9597ee716c54e0800000000000000
-      internalID: -1991609737525485977
+      spriteID: 7c74d2103f6e655a0800000000000000
+      internalID: -6532780278083139641
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      dinheiro_0: -1991609737525485977
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

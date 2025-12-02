@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: b9ba5e83f6124894a82065b265dbbbed
+guid: 47ac8831d806d194a94981c5b7600200
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1991609737525485977
-    second: dinheiro_0
+      213: -7602819173704295492
+    second: andando costas_0
+  - first:
+      213: 1975227871167368020
+    second: andando costas_1
+  - first:
+      213: 8935878484121206379
+    second: andando costas_2
+  - first:
+      213: 1775618266993818379
+    second: andando costas_3
+  - first:
+      213: 8590897236102571564
+    second: andando costas_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,30 +121,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dinheiro_0
+      name: andando costas_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 19
-        width: 23
-        height: 18
+        x: 19
+        y: 14
+        width: 17
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +140,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76e9597ee716c54e0800000000000000
-      internalID: -1991609737525485977
+      spriteID: cbb93d33e3c5d7690800000000000000
+      internalID: -7602819173704295492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando costas_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 14
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bc16b984b696b10800000000000000
+      internalID: 1975227871167368020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando costas_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 14
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6eb912132e920c70800000000000000
+      internalID: 8935878484121206379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando costas_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 14
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b7cdcf76344a810800000000000000
+      internalID: 1775618266993818379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando costas_4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 14
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2667cb058ff83770800000000000000
+      internalID: 8590897236102571564
       vertices: []
       indices: 
       edges: []
@@ -161,7 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dinheiro_0: -1991609737525485977
+      andando costas_0: -7602819173704295492
+      andando costas_1: 1975227871167368020
+      andando costas_2: 8935878484121206379
+      andando costas_3: 1775618266993818379
+      andando costas_4: 8590897236102571564
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

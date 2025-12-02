@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5a62cb43ba1fa644d9b5072f707f60d8
+guid: bedfcd26021d64e4e8da3f9ed0386af6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9008476033620459924
-    second: rhy_0
+      213: -7588929565718508802
+    second: POSTO_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,30 +109,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rhy_0
+      name: POSTO_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 720
-        height: 360
+        x: 17
+        y: 10
+        width: 63
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c6ebe60c6c67bf280800000000000000
-      internalID: -9008476033620459924
+      spriteID: efa83e194c4bea690800000000000000
+      internalID: -7588929565718508802
       vertices: []
       indices: 
       edges: []
@@ -160,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      POSTO_0: -7588929565718508802
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
