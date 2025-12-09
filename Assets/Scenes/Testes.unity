@@ -2009,6 +2009,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -6200,16 +6201,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dificuldade: 1
-  custoVida: 100
+  custoVida: 50
   Funcionarios: 0
   contasEmpresa: 0
   imposto: 0
   multas: 0
   salarios: 0
   j1: {fileID: 1281883775}
-  hudtela: {fileID: 1281883775}
+  hudtela: {fileID: 1128321249}
   fechaMes: 5
-  intervalo: 7
+  intervalo: 10
 --- !u!95 &1281883781
 Animator:
   serializedVersion: 7
@@ -8460,6 +8461,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -8956,6 +8958,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0

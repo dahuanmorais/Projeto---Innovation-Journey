@@ -8,9 +8,9 @@ public class CarregarFase : MonoBehaviour
     {
         
     }
-    public void CarregarCena(string JogarTuto)
+    public void CarregarCena(string Jogo)
     {
-        SceneManager.LoadScene(JogarTuto);
+        SceneManager.LoadScene(Jogo);
     }
 
     // Update is called once per frame

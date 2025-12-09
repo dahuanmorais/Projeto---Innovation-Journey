@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Despesas : MonoBehaviour
 {
@@ -10,9 +11,12 @@ public class Despesas : MonoBehaviour
     public float contasEmpresa;
     public float imposto;
     public float multas;
+    public float salario;
     public float salarios;
+    public int nivelEmpresa;
     public Jogador j1;
     public HUDGerenciador hudtela;
+    public CarregarFase perdeu;
 
 
     public float fechaMes;
@@ -42,18 +46,22 @@ public class Despesas : MonoBehaviour
     public void Contas()
     {
 
-
-        float somaCusto = custoVida * dificuldade;
-        j1.bolsa.carteira -= somaCusto;
+        imposto = nivelEmpresa * 200;
+        salarios = salario * Funcionarios;
+        float somaCusto = custoVida + salarios + imposto;
+        j1.bolsa.carteira -= somaCusto  ;
         Debug.Log("perdeu" + somaCusto);
-        hudtela.AtualizarGanho(j1.bolsa.carteira);
+        
         hudtela.AtualizarDinheiro(j1.bolsa.carteira);
 
 
-        if (j1.bolsa.carteira == -6000)
+        if (j1.bolsa.carteira <= -6000)
         {
 
-            Debug.Log("voce faleiu");
+            Debug.Log("voce faliu");
+            
+            SceneManager.LoadScene("Menu");
+
 
         }
 

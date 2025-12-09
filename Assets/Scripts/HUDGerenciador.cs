@@ -40,6 +40,7 @@ public class HUDGerenciador : MonoBehaviour
     public void AtualizarDinheiro(float dinheiro)
     {
         carteira.text = dinheiro.ToString("0.00");
+        ganho.GetComponent<ganhovisual>().Ativador(true, dinheiro);
     }
 
     public void AtualizarPneu(int item)

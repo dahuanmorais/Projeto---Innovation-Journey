@@ -154,7 +154,7 @@ public class Mochila
         ultimoGanho = itens[indexItem].quantidade * bonus * itens[indexItem].valorAtual;
         carteira += ultimoGanho;
         carteira = (float)System.Math.Round(carteira, 2);
-        Debug.Log("Você vendeu " + itens[indexItem].quantidade  + " tantos " + coisaPraVenda.ToString());
+        Debug.Log("Você vendeu " + itens[indexItem].quantidade  + " tantos " + coisaPraVenda.ToString() + ultimoGanho);
 
         //limpar
         itens[indexItem].quantidade = 0;

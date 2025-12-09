@@ -4,6 +4,8 @@ public class localvenda : MonoBehaviour
 {
     public string nome;
     public float bonus = 1;
+    public Despesas despesas;
+    
 
     public string[] itensCompra;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -30,6 +32,7 @@ public class localvenda : MonoBehaviour
             j1.AtualizarHUD();
 
         }
+
 
 
 
